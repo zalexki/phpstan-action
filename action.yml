@@ -9,7 +9,7 @@ inputs:
   other-cmds:
     description: 'Add some configs'
     required: false
-    default: 'analyse classes -c /base.neon'
+    default: 'analyse -c /base.neon'
 runs:
   using: 'docker'
   image: 'Dockerfile'
