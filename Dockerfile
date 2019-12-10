@@ -1,4 +1,4 @@
-FROM prestashop/prestashop:7.3
+FROM prestashop/prestashop:1.7.0.3
 
 COPY --from=composer:1.8.6 /usr/bin/composer /usr/bin/composer
 RUN composer global require hirak/prestissimo
