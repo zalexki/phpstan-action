@@ -9,7 +9,7 @@ inputs:
   other-cmds:
     description: 'Add some configs'
     required: false
-    default: '/github/workspace --path-mode=intersection --dry-run --diff --using-cache=no --diff-format udiff'
+    default: 'analyse classes -c /base.neon'
 runs:
   using: 'docker'
   image: 'Dockerfile'
