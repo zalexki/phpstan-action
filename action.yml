@@ -1,5 +1,5 @@
 # action.yml
-name: 'easy configurable php-stan'
+name: 'easy configurable phpstan'
 author: zalexki
 description: 'An easy way to run a configurable php-stan on your project without adding it as a dependency.'
 branding:
