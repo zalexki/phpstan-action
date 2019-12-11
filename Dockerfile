@@ -1,4 +1,4 @@
-FROM docker
+FROM docker:dind
 
 ADD base.neon /base.neon
 ADD entrypoint.sh /entrypoint.sh
